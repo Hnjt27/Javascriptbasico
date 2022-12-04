@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de exercício</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+    <h1>Titulo</h1>
+    </header>
+
+    <section>
+    <!--Qual numero inicia a contagem-->
+        <div class="somador">
+            <p>Inicio:</p>
+            <input type="number" id="inicio">
+    
+        <!--Qual numero finaliza a contagem-->
+        
+            <p>fim</p>
+            <input type="number" id="fim">
+
+        <!--de quanto em quanto a contagem será somada-->
+    
+            <p>Passo:</p>
+            <input type="number" id="passo">
+            <input type="button" onclick="calcular()" value="verificar">
+        </div>
+        <!--Resultado da contagem-->
+        <div id="res">
+            preencha os numeros para ver o resultado
+        </div>
+    </section>
+
+    <footer>
+    <p>&copy; LVDev</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

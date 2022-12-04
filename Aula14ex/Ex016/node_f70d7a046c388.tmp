@@ -1,0 +1,10 @@
+var n1 = 1//parseInt(window.document.getElementById("inicio"))
+var n2 =  10//parseInt(window.document.getElementById("fim"))
+var n3 = 2 //parseInt(window.document.getElementById("passo"))
+
+
+
+    while(n1<=n2){
+        console.log(`${res} fdp`)
+        var res = n1+n3
+    }
